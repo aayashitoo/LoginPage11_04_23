@@ -22,7 +22,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/etacn"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:hint="Mpin"
         android:textSize="20sp" />
@@ -38,6 +40,7 @@
         android:layout_marginBottom="10dp"
         android:hint="ifsc code"
         android:textSize="20sp" />
+
     <Button
         android:id="@+id/btnpay"
         android:layout_width="wrap_content"
@@ -57,8 +60,16 @@
         android:layout_toRightOf="@id/btnpay"
         android:text="Recive" />
 
-
-
+    <Button
+        android:id="@+id/btnbck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etifsc"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/btnrec"
+        android:text="Back to login" />
 
 
 </RelativeLayout>
